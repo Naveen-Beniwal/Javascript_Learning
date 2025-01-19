@@ -1,0 +1,68 @@
+*{
+    margin: 0px;padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 60px;
+    margin: auto;
+    border: 3px solid black;
+    height: 800px;
+    width: 600px;
+    background-color: #5ddd5472;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
+
+
+#show{
+    display: inline;
+}
+
+#mobile1, #name1, #passwrd, #gmail {
+    display: block; 
+    font-size: 18px; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+}
+#passwrd{
+    display: inline;
+ }
+
+
+
+ 
+ .valid{
+    color: green;
+
+ }
+ .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+ .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+  .invalid{
+    color: red;
+  }
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
